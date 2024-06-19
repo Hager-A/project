@@ -1,0 +1,153 @@
+
+/* index */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* scroll-behavior: smooth; */
+}
+.face{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/photo-1551218808-94e220e084d2.webp");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.name{
+    padding-top: 220px;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #0a562b;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    
+    background-color: #faebd77a;
+    padding: 15px;
+    border: solid 2px #27471e94;
+    border-radius:20px ;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: 600;
+    color: #27471e;
+    
+}
+
+.menu:hover{
+    background-color: #27471e89;
+    border: solid 2px #faebd7e2;
+    color: #faebd7e2;
+    transform: scale(1.1);
+}
+
+/* contain */
+/* header */
+.title{
+    text-align: center;
+    color: #a49164;
+    padding: 25px;
+    font-size: 35px;
+    text-transform: capitalize;
+    cursor:default;
+}
+.sort{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    font-size:20px ;
+    padding: 10px;
+    text-transform: capitalize;
+
+}
+
+.sort li{
+    padding: 5px;
+    border-bottom: 2px solid #dfa92c00;
+    color: #000;
+    
+
+}
+.sort li:hover{
+    border-bottom: 2px solid #dfaa2c;
+    cursor: pointer;
+}
+
+
+/* main */
+
+/* parant */
+.icon{
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icon:hover{
+    /* width:26%; */
+    transform: scale(1.1);
+} 
+/* img */
+
+.diplay{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 60px;
+
+}
+.img{
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #837c7c;
+}
+
+
+/* description */
+.des{
+    background-color: #fff;
+    padding: 8px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-top: none;
+    border-radius: 15px;
+    position: absolute;
+    bottom:-30px;
+    width: 100%;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.des h2{
+    color: #574824;
+    font-size: 25px;
+}
+
+.des p{
+    color: red;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
